@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Amatic+SC|Lobster|Pacifico|Raleway");
+
+body { padding-top: 100px; }
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 2em;
+}
+
+.navbar {
+  font-size: 1.5em;
+  background:
+     url(http://api.thumbr.it/whitenoise-361x370.png?background=242424ff&noise=d4ccd4&density=67&opacity=7);
+  font-family:Raleway;
+}
+
+
+#about {
+  text-align: justify;
+  padding-top:60px;
+  
+}
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+  
+.title{
+  margin:100px 0px 20px 0px;
+  font-size:3em;
+  font-family: "Pacifico", cursive;}
+
+#portfolio{
+  padding-top:60px;
+}
+
+#contact{
+   padding-top:60px;
+}
+.fa-facebook-square{
+  color: #3b5998;
+}
+.fa-instagram{
+  color: #e95950;
+}
+
+.fa-pinterest{
+  color: #cb2027;
+}
+
+p{
+  font-size: 1.5em;
+  padding:0 20px 0 20px;
+  font-family: Raleway;
+}
+
+body{ background:
+     url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=756d75&density=67&opacity=7)    /* image */
+     
+}
+
+.name{
+  white-space: nowrap;
+
+}
+.description{
+font-family: 'Shadows Into Light', cursive;
+font-size:1.5em;
+}
+
+.img-thumbnail{
+  margin:15px;
+}
+
+.sorry{
+  font-size:0.6em;
+  color: red;
+}
